@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cerebri Sans', sans-serif;
+}
+
+.navbar-brand {
+  font-family: 'Chentalle', sans-serif;
+  letter-spacing: 4px;
+  font-weight: normal;
+}
+
+
+.header {
+  background-color: #F9F5F3;
+}
+
+.catalog {
+  background-color: #F9F5F3;
+}
