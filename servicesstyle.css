@@ -1,0 +1,54 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Cerebri Sans', sans-serif;
+}
+
+.bg-img {
+  background-image: url('assets/header-ser.jpg');
+  width: 100vw;
+  height: 60vh;
+  background-position-y: bottom;
+  background-size: cover;
+}
+
+.txt-header {
+  width:100%;
+}
+
+.img-sep {
+  width: 100px;
+  height: 100px;
+}
+
+.img-sep-2 {
+  width: 70px;
+  height: 70px;
+}
+
+.section-content {
+  background-color: #fff7e4;
+  padding: 0px !important;
+}
+
+.section-subs {
+  background-color: #344c2c;
+}
+
+footer {
+  background-color: #d2e0b6;
+}
+
+.header-bg {
+  width: 40%;
+}
+
+.content-bg {
+  background-color: #d2e0b6;
+}
+
+.txt-content {
+  font-family: 'Darumadrop One', cursive;
+  /* font-family: 'Hakuna Sans', sans-serif; */
+  letter-spacing: 0.1rem;
+}
