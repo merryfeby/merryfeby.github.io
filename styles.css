@@ -1,0 +1,80 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Cerebri Sans', sans-serif;
+}
+
+
+.bg-img {
+  background-image: url('assets/header5.jpg');
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-image: cover;
+}
+
+.txt-header {
+  width:40%;
+}
+
+/* .btn-ourmenu {
+  box-sizing: border-box;
+  border-radius: 50px;
+  padding: 10px 30px;
+  letter-spacing: 0.1rem;
+} */
+
+.section-dishes {
+  /* background-color: #dce7ce; */
+  /* background-color: #c2d4cb; */
+  background-color: #d2e0b6;
+}
+
+.section-dishes-txt {
+  font-family: 'Darumadrop One', cursive;
+  font-size: 4rem;
+  letter-spacing: 0.2rem;
+}
+
+.img-sep {
+  width: 100px;
+  height: 100px;
+}
+
+
+.img-sep-2 {
+  width: 70px;
+  height: 70px;
+}
+
+.dish-title {
+  font-family: 'Hakuna Sans', sans-serif;
+  font-size: 1.3rem;
+}
+
+.section-welcome {
+  background-color: #fff7e4;
+}
+
+.section-subs {
+  background-color: #344c2c;
+}
+
+.section-dishes-content {
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+}
+
+.section-review {
+  background-color: #fff7e4;
+}
+
+.txt-review-title {
+  font-family: 'Darumadrop One', cursive;
+  font-size: 4rem;
+  letter-spacing: 0.2rem;
+}
+
+footer {
+  background-color: #d2e0b6;
+}

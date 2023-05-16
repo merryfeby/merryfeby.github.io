@@ -4,112 +4,159 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Flowery - FAQ</title>
+  <title>FAQ</title>
+  <!-- link font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
   <link href="https://fonts.cdnfonts.com/css/cerebri-sans" rel="stylesheet">
   <style>
     @import url('https://fonts.cdnfonts.com/css/cerebri-sans');
   </style>
-  <link href="https://fonts.cdnfonts.com/css/royce" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/chavter" rel="stylesheet">
   <style>
-    @import url('https://fonts.cdnfonts.com/css/royce');
+    @import url('https://fonts.cdnfonts.com/css/chavter');
   </style>
-  <link href="https://fonts.cdnfonts.com/css/chentalle" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/hakuna-sans" rel="stylesheet">
   <style>
-    @import url('https://fonts.cdnfonts.com/css/chentalle');
+    @import url('https://fonts.cdnfonts.com/css/hakuna-sans');
   </style>
-  
+  <link href="https://fonts.cdnfonts.com/css/dairing" rel="stylesheet">
+  <style>
+    @import url('https://fonts.cdnfonts.com/css/dairing');
+  </style>
   <!-- link css -->
-  <link rel="stylesheet" href="faq.css">
+  <link rel="stylesheet" href="faqstyles.css">
   <!-- link bootstrap -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- link cdn fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
 <body>
-  <!-- navbar -->
-  <nav class="navbar navbar-expand-lg navbar-ex fw-bolder p-4" style="background-color: #fac9c9;">
+  <nav class="navbar navbar-expand-lg fixed-top p-5 fw-bold" style="background-color: #79111100;">
     <div class="container-fluid">
-      <a class="navbar-brand text-dark fs-3 ps-5" href="#">FLOWERY</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand text-warning" style="font-family: 'Darumadrop One', cursive;letter-spacing: 3px;
+      font-weight: bolder; font-size: 3rem;" href="#">SUSHITO</a>
+      <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ms-auto fs-6" style="letter-spacing: 4px;">
-          <a class="nav-link active px-4 text-dark nav-underline" aria-current="page" href="index.html">Home</a>
-          <a class="nav-link px-4 text-dark" href="catalog.html">Catalog</a>
-          <a class="nav-link px-4 text-dark" href="services.html">Services</a>
-          <a class="nav-link px-4 text-dark" href="faq.html">FAQ</a>
-          <a class="nav-link px-4 text-dark" href="about.html">About Us</a>
+        <div class="navbar-nav ms-auto fs-5 nav-sec " style="letter-spacing: 6px;">
+          <a class="nav-link active px-4 text-warning" aria-current="page" href="index.html">HOME</a>
+          <a class="nav-link px-4 text-warning" href="menu.html">MENU</a>
+          <a class="nav-link px-4 text-warning" href="services.html">SERVICES</a>
+          <a class="nav-link px-4 text-warning" href="shop.html">SHOP</a>
+          <a class="nav-link px-4 text-warning" href="#">FAQ</a>
+          <a class="nav-link px-4 text-warning" href="about.html">ABOUT ME</a>
         </div>
       </div>
     </div>
   </nav>
-  <div class="container-fluid header">
-    <nav class="bc"style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
-      <ol class="breadcrumb p-5">
-        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-        <li class="breadcrumb-item active" aria-current="page">FAQ</li>
-      </ol>
-    </nav>
-    <div class="display-1 py-auto text-center text-white" style="font-family: 'Chentalle', sans-serif;">FAQ</div>
+  <div class="container-fluid bg-img">
+    <div class="container d-flex align-items-center justify-content-center text-center h-100">
+      <div class="header-bg bg-success d-flex align-items-center justify-content-center h-100 bg-opacity-50">
+        <div class="txt-header">
+          <p class="text-white mb-5">Frequently asked questions</p>
+          <h1 class="mb-5 fw-bold display-1" style="color:white; filter: brightness(1);">FAQs</h1>
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="container-fluid content">
+  <div class="container-fluid section-quote">
     <div class="container py-5 text-center">
-      <div class="fs-4 py-5 fst-italic text-center">Below are some answers to our most frequently asked questions!</div>
-      <img src="assets/smallfw.png" alt="" class="img-fluid py-3">
-      <!-- <div class="row py-5">
-        <div class="col-5 offset-1">
-          <img src="assets/dump.jpg" alt="" class="img-fluid w-50">
-        </div>
-        <div class="col-4 text-start">
-          <div class="display-6 py-3" style="font-family: 'Chentalle', sans-serif; letter-spacing: 4px">FAQ</div>
-          <p class="text-secondary">At Acuarela, we believe that your special day deserves memorable
-            brz flowers. Our statement pieces and custom designs will reflect the sentiment of the occasion and the personality of our clients. Every design is created from scratch to meet our customer’s needs and budget, complimenting all aspects of your wedding from the venue to the dress. Let us transform your dreams into reality.</p>
-        </div>
-        <div class="col-6">
-          <img src="assets/dump.jpg" alt="" class="img-fluid w-25 rounded-circle">
-        </div>
-        
-      </div> -->
       <div class="row py-5">
-        <div class="col-md-8 offset-md-2">
-          <!-- <div class="fs-2 py-3 text-start" style="font-family: 'Chentalle', sans-serif; letter-spacing: 4px">Delivery</div> -->
-          <div class="accordion accordion-flush" id="accordionFlushExample">
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                  Where do your deliver?
-                </button>
-              </h2>
-              <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body text-secondary fs-6">Flowery offers flower delivery all across Indonesia - from the Jakarta all the way to Papua. Flower delivery costs will vary depending on the suburb for delivery. If you have any questions, please don’t hesitate to contact the Flowery florist team in Jakarta</div>
+        <div class="col-7 offset-3 text-center">
+          <img src="assets/sep2.png" class="img-fluid mx-auto img-sep-2 py-3" alt="">
+          <div class="fs-2 pt-5 my-5 fw-bold" style="font-family: 'Darumadrop One', cursive;">Have questions? We're here to help you</div>
+        </div>
+      </div>
+      <div class="row mb-5 py-5">
+        <div class="col-7">
+          <div class="row mb-5">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Do you offer a catering service?
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Currently, we do not offer a catering service, but we are accustomed to fulfilling large orders. Check your local Suhito Restaurant for more and to place an order.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Do you have bithday celebrations?
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Yes, just let your server know who the special guest is. The birthday guest will receive complimentary ice cream and our staff will come by and sing a Japanese song for the party.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Do you have a children's menu?
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Yes. We offer a creative selection of kid-friendly items. Ask your server or host for the award-winning, fun Kids’ Menu coloring page and crayons.</div>
+                </div>
               </div>
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                  What time do I need to place my order by?
-                </button>
-              </h2>
-              <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body text-secondary ">
-                  Orders received before 10am will receive same day delivery. Orders made after 10am will be sent next day.
-
-                  If you place your order after 10am and still need your flowers sent same day we can do an express delivery but fees will apply (this ranges from $25-$35).
-                  
-                  Please note that due to notorious traffic delays in our city we cannot guarantee specific times of delivery for any orders</div>
+          </div>
+          <div class="row">
+            <div class="accordion accordion-flush" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                    Do you have large tables for big parties?
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                  <div class="accordion-body">
+                    Yes, most of our restaurants can accommodate large groups. Please call the location you would like to visit for details and seating arrangements.
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                  What if no one is home to accept the flower delivery?
-                </button>
-              </h2>
-              <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body text-secondary ">
-                  If no one is home, we will try to find a safe area, away from the sunlight, to leave the flowers. To avoid drying the flowers out, we will keep them in a temporary water source. If you know you won't be home to collect your flowers, we recommend adding a vase to your order, so your flowers will stay as fresh as possible during the wait. 
+          </div>
+        </div>
+        <div class="col-4 offset-1 ">
+          <div class="container-fluid px-5 form-faq">
+            <p></p>
+            <h3 class="mb-5 mt-3 fs-4 title-cont">Contact Us</h3>
+            <div class="mb-4 text-start">
+              <label for="exampleFormControlInput1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@gmail.com">
+            </div>
+            <div class="mb-4 text-start">
+              <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="py-3"></div>
+            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal" style="box-sizing: border-box;
+            border-radius: 0px;
+            padding: 10px 30px;
+            letter-spacing: 0.1rem;">
+              SEND IT
+            </button>
 
-                  If we can't find a space and a shady space, we will contact the customers and arrange a redelivery when they are at the delivery address. This will sometimes incur an additional fee, so please advise our best options on the order form, with as much information as possible to avoid this. </div>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content p-3">
+                  <div class="modal-body">
+                    <p class="fw-bold">Submitted</p>
+                    Thanks so much! We'll respond back by email
+                  </div>
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
+                </div>
               </div>
             </div>
           </div>
@@ -117,12 +164,43 @@
       </div>
     </div>
   </div>
-  <!-- footer -->
-  <div class="container-fluid text-center" style="background-color: #ffe2de;">
+  
+  <div class="container-fluid section-subs text-white">
     <div class="container py-5">
-      <p class="fw-bold"> Copyright &copy; 2023 Flowery</p>
-      <p>TERMS & CONDITIONS | PRIVACY | LEGAL POLICE</p>
+      <div class="row">
+        <div class="col-6 text-end">
+          <h3 class="fw-bold">Request to subscribe for get
+            <br>
+            new updates and more!</h3>
+        </div>
+        <div class="col-6 text-center d-flex align-items-center">
+          <form class="row row-cols-lg-auto g-3 align-items-center">
+            <div class="col-12">
+              <label class="visually-hidden" for="inlineFormInputGroupUsername">Username</label>
+              <div class="input-group">
+                <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Email address" style="box-sizing: border-box;
+                border-radius: 0px;
+                padding: 10px 30px;
+                letter-spacing: 0.1rem;">
+              </div>
+            </div> 
+            <div class="col-12">
+              <button type="submit" class="btn btn-warning" style="box-sizing: border-box;
+              border-radius: 0px;
+              padding: 10px 30px;
+              letter-spacing: 0.1rem;">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
   </div>
+  <footer>
+    <div class="container py-5 d-flex justify-content-between">
+      <p class="fw-bold"> Copyright &copy; 2023 SUSHITO Restaurant</p>
+      <p>Terms & Conditions | Privacy | Legal Police</p>
+    </div>
+  </footer>
+  <!-- link js -->
 </body>
 </html>

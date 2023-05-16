@@ -6,159 +6,163 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
   <!-- link font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
   <link href="https://fonts.cdnfonts.com/css/cerebri-sans" rel="stylesheet">
   <style>
     @import url('https://fonts.cdnfonts.com/css/cerebri-sans');
   </style>
-  <link href="https://fonts.cdnfonts.com/css/royce" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/chavter" rel="stylesheet">
   <style>
-    @import url('https://fonts.cdnfonts.com/css/royce');
+    @import url('https://fonts.cdnfonts.com/css/chavter');
   </style>
-  <link href="https://fonts.cdnfonts.com/css/chentalle" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/hakuna-sans" rel="stylesheet">
   <style>
-    @import url('https://fonts.cdnfonts.com/css/chentalle');
+    @import url('https://fonts.cdnfonts.com/css/hakuna-sans');
   </style>
-  
+  <link href="https://fonts.cdnfonts.com/css/dairing" rel="stylesheet">
+  <style>
+    @import url('https://fonts.cdnfonts.com/css/dairing');
+  </style>
+
   <!-- link css -->
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="styles.css">
   <!-- link bootstrap -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-ex fw-bolder p-4" style="background-color: #fac9c9;">
+  <nav class="navbar navbar-expand-lg fixed-top p-5 fw-bold" style="background-color: #79111100;">
     <div class="container-fluid">
-      <a class="navbar-brand text-dark fs-3 ps-5" href="#">FLOWERY</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand text-warning" style="font-family: 'Darumadrop One', cursive;letter-spacing: 3px;
+      font-weight: bolder; font-size: 3rem;" href="#">SUSHITO</a>
+      <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ms-auto fs-6" style="letter-spacing: 4px;">
-          <a class="nav-link active px-4 text-dark nav-underline" aria-current="page" href="index.html">Home</a>
-          <a class="nav-link px-4 text-dark" href="catalog.html">Catalog</a>
-          <a class="nav-link px-4 text-dark" href="services.html">Services</a>
-          <a class="nav-link px-4 text-dark" href="faq.html">FAQ</a>
-          <a class="nav-link px-4 text-dark" href="about.html">About Us</a>
+        <div class="navbar-nav ms-auto fs-5 nav-sec " style="letter-spacing: 6px;">
+          <a class="nav-link active px-4 text-warning" aria-current="page" href="#">HOME</a>
+          <a class="nav-link px-4 text-warning" href="menu.html">MENU</a>
+          <a class="nav-link px-4 text-warning" href="services.html">SERVICES</a>
+          <a class="nav-link px-4 text-warning" href="shop.html">SHOP</a>
+          <a class="nav-link px-4 text-warning" href="faq.html">FAQ</a>
+          <a class="nav-link px-4 text-warning" href="about.html">ABOUT ME</a>
         </div>
       </div>
     </div>
   </nav>
-  <div id="carouselExampleFade" class="carousel slide carousel-fade">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="assets/My project.jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block text-start">
-          <div class="row">
-            <div class="col-md-4 fs-1">
-              <h5 class="text-secondary-emphasis fw-normal" style="font-family: 'Chentalle', sans-serif; letter-spacing: 4px; font-size: 4vw;">Flowers For You With Love</h5>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-3 mb-4">
-              <p>A flower cannot blossom without sunshine, and a man cannot live without love</p>
-            </div>
-          </div>
-          <div class="row mb-5">
-            <div class="col-3">
-              <div class="d-grid gap-2 col-6">
-                <a class="btn btn-outline-light bg-danger bg-opacity-25" href="catalog.html" role="button">View Catalog</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item mx-auto">
-        <img src="assets/home2 (2).jpg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block" style="bottom:120px;">
-          <h1 class="text-white" style="font-family: 'Chentalle', sans-serif; letter-spacing: 4px; font-size: 4vw;">FLOWERY</h1>
-          <p class="fw-bolder">Est. 1987</p>
-          <div class="container-fluid-md mx-auto">
-            <div class="alert alert-light w-50 mx-auto" role="alert">
-              Unbeatable prices and fresh flowers for every room in your house
-            </div>
-          </div>
-        </div>
+  <div class="container-fluid bg-img">
+    <div class="container d-flex align-items-center justify-content-center text-center h-100">
+      <div class="txt-header">
+        <h1 class="mb-5 fw-bold display-1" style="color:white; filter: brightness(1);">Do you love sushi? You’ll <span class="text-warning">love</span> us.</h1>
+        <p class="text-white mb-5" style="font-style: italic;">
+          “When I look back at something like ‘Raw Like Sushi,’ I think I was very much in the right place at the right time.”
+        </p>
+        <a class="btn btn-outline-light" href="menu.html" role="button" style=" box-sizing: border-box;
+        border-radius: 0px;
+        padding: 10px 30px;
+        letter-spacing: 0.1rem;">OUR MENU</a>
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
   </div>
-  <div class="container-fluid text-center header">
-    <div class="container pt-5 pb-5 align-items-center">
-      <div class="display-4 py-3" style="font-family: 'Chentalle', sans-serif;">Why Choose Us?</div>
-      <!-- <hr class="text-center w-50 mx-auto"> -->
-      <img src="assets/sep.png" alt="" class="pb-5 img-fluid mx-auto">
-      <div class="row pt-4 t-4">
-        <div class="col-md-4 mt-4">
-          <img src="assets/3.png" alt="">
-          <h3 class="pt-4" style="font-family: 'Chentalle', sans-serif;">100% Natural</h3>
+  <div class="container-fluid section-welcome">
+    <div class="container py-5 text-center">
+      <!-- <img src="assets/sep.png" alt="" class="py-5 img-fluid mx-auto"> -->
+      <div class="row py-5">
+        <div class="col-5 offset-1">
+          <img src="assets/org.jpg" alt="" class="img-fluid w-75">
         </div>
-        <div class="col-md-4 mt-4">
-          <img src="assets/1.png" alt="">
-          <h3 class="pt-4" style="font-family: 'Chentalle', sans-serif;">Fresh Products</h3>
-        </div>
-        <div class="col-md-4 mt-4">
-          <img src="assets/2.png" alt="">
-          <h3 class="pt-4" style="font-family: 'Chentalle', sans-serif;">Maintained With Care</h3>
+        <div class="col-4 text-start">
+          <div class="display-3 pt-5 fw-bold" style="font-family: 'Darumadrop One', cursive;">Sushito ( すしと )
+          <br>japanese Restaurant</div>
+          <hr class="w-25">
+          <p class="text-secondary">A Sushito is the first and only authenthic japanese restaurant that specializes in sushi and ramen dishes, the wheat-flour Japanese noodles in broth. In Surabaya</p>
+          <a class="btn btn-success my-4" href="services.html" role="button" style="box-sizing: border-box;
+          border-radius: 0px;
+          padding: 10px 30px;
+          letter-spacing: 0.1rem;">OUR SERVICES</a>
         </div>
       </div>
     </div>
   </div>
-  <div class="container-fluid text-center catalog">
-    <div class="container pt-5 pb-5 align-items-center">
-      <img src="assets/smallfw.png" alt="" class=" img-fluid pt-5 pb-5">
-      <div class="display-4 py-3" style="font-family: 'Chentalle', sans-serif;">Our Best Collection</div>
-      <img src="assets/sep.png" alt="" class="img-fluid pb-5 mx-auto">
-      <div class="row row-cols-1 row-cols-md-3 mx-auto py-5">
-        <div class="col-md-4 mt-4">
-          <div class="card h-100 w-75 mx-auto" style="box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;">
-            <img src="assets/roses.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">La Vien Rose Bouquet - Classic</h5>
-              <p class="card-text">$189.89</p>
-            </div>
-          </div>
+  <div class="container-fluid section-dishes">
+    <div class="container align-items-center section-dishes-content">
+      <div class=" text-center section-dishes-txt">
+        <img src="assets/sep.png" class="img-fluid mx-auto img-sep" alt="">
+        <h1 class="section-dishes-txt py-3">Our Favourite Dishes</h1>
+      </div>
+      <div class="row gx-5">
+        <div class="col-12 col-md-4 text-center">
+          <img class="img-fluid" src="assets/sushi.png" alt="">
+          <h3 class="fw-bold mb-4 dish-title">Nigiri Classic Sushi</h3>
+          <p>Nigiri is a style of sushi that is made by molding a ball of vinegared rice by hand and topping it with a slice of raw fish. </p>
         </div>
-        <div class="col-md-4 mt-4">
-          <div class="card h-100 w-75 mx-auto" style="box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;">
-            <img src="assets/babybreath.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Baby's Breath Bouquet - Light Pink</h5>
-              <p class="card-text">$139.59</p>
-            </div>
-          </div>
+        <div class="col-12 col-md-4 text-center">
+          <img class="img-fluid p-5" src="assets/ramen.png" alt="">
+          <h3 class="fw-bold mb-4 dish-title">Chicken Gyoza Ramen</h3>
+          <p>We took our Fried Garlic Chicken ramen with organic noodles and topped it to perfection with gyoza, mushrooms, soft-boiled egg and spinach. </p>
         </div>
-        <div class="col-md-4 mt-4">
-          <div class="card h-100 w-75 mx-auto" style="box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;">
-            <img src="assets/purpletulipe.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Orchid Tulipe Bouquet - ft. Leena Sakura</h5>
-              <p class="card-text">$199.59</p>
-            </div>
-          </div>
+        <div class="col-12 col-md-4 text-center">
+          <img class="img-fluid p-5" src="assets/ramen2.png" alt="">
+          <h3 class="fw-bold mb-4 dish-title">Creamy Seafood Ramen</h3>
+          <p>This simple creamy seafood ramen bowl is such a treat. It's rich, it's luxurious, and it's only 6 ingredients. </p>
         </div>
       </div>
     </div>
   </div>
-  <div class="container-fluid text-center">
+  <div class="container-fluid section-subs text-white">
     <div class="container py-5">
-      <div class="display-6 py-3" style="font-family: 'Chentalle', sans-serif;">Review Us</div>
-      <img src="assets/sep.png" alt="" class="img-fluid pb-5 mx-auto">
-      <p class="text-secondary">We're sorry you aren't satisfied with our services.
+      <div class="row">
+        <div class="col-6 text-end">
+          <h3 class="fw-bold">Request to subscribe for get
+            <br>
+            new updates and more!</h3>
+        </div>
+        <div class="col-6 text-center d-flex align-items-center">
+          <form class="row row-cols-lg-auto g-3 align-items-center">
+            <div class="col-12">
+              <label class="visually-hidden" for="inlineFormInputGroupUsername">Username</label>
+              <div class="input-group">
+                <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="Email address" style="box-sizing: border-box;
+                border-radius: 0px;
+                padding: 10px 30px;
+                letter-spacing: 0.1rem;">
+              </div>
+            </div> 
+            <div class="col-12">
+              <button type="submit" class="btn btn-warning" style="box-sizing: border-box;
+              border-radius: 0px;
+              padding: 10px 30px;
+              letter-spacing: 0.1rem;">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid text-center section-review">
+    <div class="container py-5">
+      <img src="assets/sep2.png" class="img-fluid mx-auto img-sep-2 py-3" alt="">
+      <div class="pb-5">
+        <div class="py-3 txt-review-title">Review Us</div>
+        <p class="text-secondary">We're sorry you aren't satisfied with our services.
         Tell us how we can make an improvement</p>
-      <div class="form-floating">
-        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+      </div>
+      <div class="form-floating d-flex justify-content-center">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px;"></textarea>
         <label for="floatingTextarea2">Comments</label>
       </div>
 
       <div class="py-3"></div>
-      <button type="button" class="btn btn-outline-light bg-danger bg-opacity-25" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal" style="box-sizing: border-box;
+      border-radius: 0px;
+      padding: 10px 30px;
+      letter-spacing: 0.1rem;">
         Submit Feedback
       </button>
 
@@ -167,22 +171,19 @@
           <div class="modal-content p-3">
             <div class="modal-body">
               <p class="fw-bold">Submitted</p>
-              <p><div class="spinner-border spinner-border-sm" role="status">
-                <span class="visually-hidden">Loading...</span>
-              </div></p>
               Thanks so much for sharing your experience with us. We hope to see you again soon.
             </div>
-              <button type="button" class="btn btn-outline-light bg-danger bg-opacity-25" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="container-fluid text-center" style="background-color: #ffe2de;">
-    <div class="container py-5">
-      <p class="fw-bold"> Copyright &copy; 2023 Flowery</p>
-      <p>TERMS & CONDITIONS | PRIVACY | LEGAL POLICE</p>
+  <footer>
+    <div class="container py-5 d-flex justify-content-between">
+      <p class="fw-bold"> Copyright &copy; 2023 SUSHITO Restaurant</p>
+      <p>Terms & Conditions | Privacy | Legal Police</p>
     </div>
-  </div>
+  </footer>
 </body>
 </html>
